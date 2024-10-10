@@ -3,6 +3,6 @@ function sayHello() {
 	if (check=="protprotprot") {
 		window.alert("Selamat datang cik")
 	} else {
-		document.write("niga")
+		document.write("Kupunya satu mimpi\nkutanamkan di hati\n\n\n\n\n\nquaso")
 	}
 }

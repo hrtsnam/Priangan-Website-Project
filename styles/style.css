@@ -8,7 +8,6 @@ body {
 	background: 
 }
 #nav {
-	background-color: white;
 	color: black;
 	align-items: center;
 	justify-content: center;
@@ -17,6 +16,7 @@ body {
 	width: 100%;
 	height: 100px;
 	box-shadow: 1px 1px 8px grey;
+	filter: clur(8px);
 }
 #iconnav {
 	position: fixed;
@@ -32,6 +32,7 @@ body {
 }
 #nav>ul>li {
 	list-style-type: none;
+	color: black;
 	cursor: pointer;
 	margin: 0 5px;
 	padding: 10px 15px;
@@ -50,6 +51,16 @@ body {
 #content1 {
 	border: solid 1px;
 	padding-top: 15%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+@keyframes anim {
+	0% {background-color: #0cb189}
+	25% {background-color: cadetblue}
+	50% {background-color: #0cb189}
+	75% {background-color: cadetblue}
+	100% {background-color: #0cb189}
 }
 #footer {
 	border: solid 1px;

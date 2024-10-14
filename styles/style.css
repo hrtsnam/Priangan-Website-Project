@@ -22,6 +22,8 @@ body {
 #nav>ul {
 	background-color: white;
 	padding-left: 1px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
 	color: white;
 	display: flex;
 	width: 95%;

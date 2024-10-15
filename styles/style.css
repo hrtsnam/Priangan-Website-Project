@@ -68,13 +68,18 @@ body {
 	color: rgb(255, 165, 229);
 	padding-left: 9%;
 	margin-left: 35%;
-	padding-bottom: 5%;
 	top: -10px;
 	font-family:  "Lucida Handwriting", cursive;
 }
 #home>.about {
 	padding: 0 5%;
+	padding-left: 70%;
 }
 #footer {
 	border: solid 1px;
+}
+
+#home>h5 {
+	padding-left: 5%;
+	padding-bottom: 20px;
 }

@@ -16,15 +16,16 @@ body {
 	justify-content: flex-end;
 	position: fixed;
 	width: 100%;
-	height: 50px;
+	height: 38px;
 	filter: clur(8px);
+	box-shadow: 1px 1px 5px black;
 }
 #nav>ul {
-	background-color: white;
+	background-color: rgb(252, 249, 235);
 	padding-left: 1px;
 	padding-top: 2.5px;
 	padding-bottom: 2.5px;
-	color: white;
+	color: rgb(252, 249, 235);
 	display: flex;
 	width: 95%;
 	height: 100%;
@@ -48,12 +49,12 @@ body {
 }
 #nav>ul>li:hover {
 	background-color: #1a1a1a;
-	color: white;
+	color: rgb(252, 249, 235);
 	font-weight: bold;
 	border-radius: 30px;
 }
 #home {
-	color: white;
+	color: rgb(252, 249, 235);
 	border: solid 1px black;
 	padding-top: 5%;
 }
@@ -75,6 +76,7 @@ body {
 #home>.contitle>h1 {
 	font-family: 'Starborn';
 	font-size: 90px;
+	color: rgb(252, 249, 235);
 }
 #home>.contitle>h3 {
 	font-family: 'Lucida Handwriting', cursive;
@@ -90,4 +92,33 @@ body {
 #home>h5 {
 	padding-left:0;
 	padding-bottom: 20px;
+}
+
+.seeM>ul {
+	display: flex;
+	border :solid 1px whitesmoke;
+	border-radius: 15px;
+	position: relative;
+	list-style-type: none;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.seeM>ul>li {
+	font-size: small;
+}
+.seeM {
+	display: flex;
+	justify-content: center;
+	width: 68.5%;
+	padding-top: 1%;
+	padding-left: 25%;
+}
+
+.seeM>ul:hover {
+	background-color:rgb(252, 249, 235);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	
 }

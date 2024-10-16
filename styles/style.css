@@ -16,7 +16,7 @@ body {
 	justify-content: flex-end;
 	position: fixed;
 	width: 100%;
-	height: 38px;
+	height: 50px;
 	filter: clur(8px);
 	box-shadow: 1px 1px 5px black;
 }
@@ -52,6 +52,7 @@ body {
 	color: rgb(252, 249, 235);
 	font-weight: bold;
 	border-radius: 30px;
+	transform: ease-in-out;
 }
 #home {
 	color: rgb(252, 249, 235);
@@ -93,32 +94,27 @@ body {
 	padding-left:0;
 	padding-bottom: 20px;
 }
-
-.seeM>ul {
+.seemCont {
 	display: flex;
-	border :solid 1px whitesmoke;
-	border-radius: 15px;
-	position: relative;
-	list-style-type: none;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3px;
-	padding-bottom: 3px;
-}
-.seeM>ul>li {
-	font-size: small;
+	justify-content: flex-end;
+	align-items: center;
 }
 .seeM {
 	display: flex;
-	justify-content: center;
-	width: 68.5%;
-	padding-top: 1%;
-	padding-left: 25%;
-}
-
-.seeM>ul:hover {
-	background-color:rgb(252, 249, 235);
-	color: rgb(0, 0, 0);
-	font-weight: bold;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
 	
+}
+.seeM>div {
+	border: solid 1px white;
+	padding: 5px 30%;
+	margin: 10px 0;
+	border-radius: 50px;
+	border: solid 1px white;
+}
+.seeM>div:hover {
+	background-color: rgb(252, 249, 235);
+	color: #1a1a1a;
+	cursor: pointer;
 }
